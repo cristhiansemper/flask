@@ -1,5 +1,5 @@
 from ast import If
-#from msilib.schema import Error
+#from msilib.schema import Error 
 from sqlalchemy import delete, insert
 import sqlalchemy
 from conexionBD import Conexion as db
