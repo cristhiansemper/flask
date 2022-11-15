@@ -1,4 +1,4 @@
-from msilib.schema import Error
+#from msilib.schema import Error
 from sqlalchemy import delete, insert
 from conexionBD import Conexion as db
 import json
