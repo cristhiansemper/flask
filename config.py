@@ -1,13 +1,13 @@
 class Config():
-    DB_HOST = 'containers-us-west-115.railway.app'
-    DB_PORT = 5529
-    DB_USER = 'root'
-    DB_PASSWORD = 'ouTNmpMoRAbF3uBosx3N'
-    DB_NAME = 'railway'
+    DB_HOST = os.getenv("DB_HOST")
+    DB_PORT = os.getenv("DB_PORT")
+    DB_USER = os.getenv("DB_USER")
+    DB_PASSWORD = os.getenv("DB_PASSWORD")
+    DB_NAME = os.getenv("DB_NAME")
 
 
 class SecretKey():
-    JWT_SECRET_KEY = 'grupomovilesSecretKey'
+    JWT_SECRET_KEY = os.getenv("JWT_SECRET_KEY")
 
 
 class Host():
