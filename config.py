@@ -1,9 +1,9 @@
 class Config():
-    DB_HOST = 'localhost'
-    DB_PORT = 3306
+    DB_HOST = 'containers-us-west-115.railway.app'
+    DB_PORT = 5529
     DB_USER = 'root'
-    DB_PASSWORD = ''
-    DB_NAME = 'bdproyectofinal_appsmoviles'
+    DB_PASSWORD = 'ouTNmpMoRAbF3uBosx3N'
+    DB_NAME = 'railway'
 
 
 class SecretKey():
