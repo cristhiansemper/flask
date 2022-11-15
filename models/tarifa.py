@@ -1,5 +1,5 @@
 #from msilib.schema import Error
-from sqlalchemy import delete, insert
+#from sqlalchemy import delete, insert
 from conexionBD import Conexion as db
 import json
 from util import CustomJsonEncoder
