@@ -40,4 +40,4 @@ def home():
 
 #Iniciar el servicio web con Flask
 if __name__ == '__main__':
-    app.run(port=82, debug=True, host='0.0.0.0')
+    app.run(port=os.getenv("PORT", default=5000), debug=True)
